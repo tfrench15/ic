@@ -5,8 +5,6 @@ import (
 	"testing"
 )
 
-var calendar = []Meeting{}
-
 func TestMergeRanges(t *testing.T) {
 	tt := []struct {
 		calendar []Meeting
